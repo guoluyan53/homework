@@ -1,0 +1,235 @@
+/* login页 */
+.el-tabs{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 15%;
+  }
+  .el-tabs__header{
+    width:auto;
+  }
+  .el-tabs__item{
+    color:#c7dfff;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 30px;
+  }
+
+  .el-tabs--top.el-tabs--card>.el-tabs__header .el-tabs__item:nth-child(2){
+    padding-left: 30px;
+  }
+  .el-tabs__item:hover{
+      color: #be6af8;
+  }
+  .el-tabs__item.is-active{
+    color:#c7dfff;
+  }
+.el-tabs__nav-wrap{
+  width: 100%;
+}
+.el-tabs--card>.el-tabs__header{
+  border-bottom: 0px;
+}
+.el-tabs--card>.el-tabs__header
+.el-tabs__nav{
+  border: 0px;
+}
+.el-tabs--card>.el-tabs__header 
+.el-tabs__item{
+  border-bottom:1px solid white;
+}
+.el-tabs--card>.el-tabs__header 
+.el-tabs__item.is-active {
+  border-bottom-color:#943cd0 ;
+}
+
+/* 登录注册的切换 */
+.el-input {
+  width: 60%;
+}
+.el-tabs__content{
+  margin-left: 30px;
+}
+.el-input{
+  margin: 8px 0;
+}
+.el-input__inner{
+  border-radius: 10px;
+  height: 35px;
+  line-height: 35px;
+  color: #943cd0;
+  border: 0;
+}
+.el-input__inner::placeholder{
+  color: #943cd0;
+}
+.el-checkbox{
+  margin-left:12%;
+  margin-top: 10px;
+}
+.el-checkbox__input.is-checked
+.el-checkbox__inner, .el-checkbox__input.is-indeterminate
+.el-checkbox__inner{
+  background-color:#943cd0;
+  border-color: white;
+}
+.el-checkbox__inner{
+  background-color: #943cd0;
+}
+.el-checkbox__input.is-focus .el-checkbox__inner{
+  border-color: white;
+}
+.el-checkbox__label{
+  color: white;
+}
+.el-checkbox__input.is-checked+.el-checkbox__label{
+  color: white;
+}
+.el-tabs--card>.el-tabs__header .el-tabs__item{
+  border-bottom: none;
+}
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active{
+  text-shadow: 0 0 10px white;
+}
+
+/* 提交作业的分页部分 */
+.el-pager li{
+  width: 25px;
+  min-width: 25px;
+  background-color: #9075ff;
+  padding: 0;
+}
+.el-pager li.active{
+  color: #9075ff;
+  background-color:#e4ebf9 ;
+}
+.el-pager
+li.btn-quickprev{
+  color: white;
+}
+.el-pager
+li.btn-quicknext{
+  color: white;
+}
+.el-pagination .btn-prev{
+  background: #9075ff;
+  color: white;
+}
+.el-pagination .btn-next{
+  background: #9075ff;
+  color: white;
+}
+.el-pagination{
+  margin-left:33% ;
+  margin-top: 30px;
+}
+.el-pagination button:disabled {
+  background-color: #9075ff;
+}
+.el-pagination__jump{
+  margin-top: -8px;
+  margin-left: 40px;
+  color: white;
+}
+
+.el-pagination__editor .el-input__inner{
+  border-radius: 0;
+  background-color: #e4ebf9;
+  color: #9075ff;
+}
+
+.el-pagination__editor.el-input{
+  width: 30px;
+}
+.el-pagination__total{
+  color: white;
+}
+
+/* 提交作业---作业内容 */
+.el-upload{
+  width: 70%;
+  height: 100px;
+  margin-left: 15%;
+  background-color: white;
+}
+.el-upload-dragger{
+  width: 100%;
+  height: 80px;
+  border-radius: 0;
+  border: 0;
+  margin-top:5px ;
+}
+.el-upload-dragger .el-icon-upload{
+  margin: 0;
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+/* 作业内容---反馈 */
+.el-textarea{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5px;
+}
+.el-textarea__inner{
+  border: 0;
+  border-radius: 0;
+  color: black;
+}
+
+/* 接收评分 */
+.el-rate{
+  width: auto;
+  height: 40px;
+  margin-top: -20px;
+  margin-left: 8%;
+}
+
+/* 排名表格重置 */
+.el-table{
+  max-width: 80%;
+  margin-left: 10%;
+  background-color: #9075ff;
+}
+.el-table thead{
+  color: white;
+  font-weight: 300;
+}
+.el-table td, .el-table th.is-leaf{
+  border:0;
+}
+.el-table th{
+  background-color: #7553ff;
+  text-align: center;
+}
+
+.el-table__header{
+  font-size: 20px;
+}
+.el-table th{
+  padding: 2px 0;
+}
+.el-table .cell{
+  height: 36px;
+  line-height: 36px;
+}
+.el-table td{
+  padding: 0;
+  border: 0;
+  background-color: #9075ff;
+  text-align: center;
+  color: white;
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td{
+  background: #7553ff;
+}
+.el-table--enable-row-transition .el-table__body td{
+  transition: none;
+}
+ .el-table--enable-row-hover .el-table__body tr:hover>td {
+  background-color:#943cd0;
+}
+.el-table::before {
+  background-color: #9075ff;
+}
